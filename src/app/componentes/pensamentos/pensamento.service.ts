@@ -7,8 +7,9 @@ import { Pensamento } from './pensamento';
   providedIn: 'root'
 })
 export class PensamentoService {
-  editar(pensamento: Pensamento) {
-    throw new Error('Method not implemented.');
+  editar(pensamento: Pensamento): Observable<Pensamento> {
+    const url = `${this.API}/${pensamento.id}`;
+    return this.http.put<Pensamento>(url, pensamento);
   }
 
   private readonly API = 'http://localhost:3000/pensamentos';
