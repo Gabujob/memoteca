@@ -1,27 +1,115 @@
-# Memoteca
+# 📝 Projeto de Anotações Favoritas (Memoteca)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+## 📌 Sobre o Projeto
 
-## Development server
+Este projeto é uma aplicação web desenvolvida para **salvar, organizar e gerenciar anotações ou menções que o usuário mais gosta**. A ideia é funcionar como uma *memoteca*, onde você pode registrar frases, ideias, lembretes ou qualquer anotação importante e acessá-las facilmente depois.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O foco principal do projeto é o **aprendizado e prática com Angular**, utilizando boas práticas de organização, componentização e consumo de dados.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Funcionalidades
 
-## Build
+* ➕ Criar novas anotações
+* ✏️ Editar anotações existentes
+* 🗑️ Remover anotações
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠️ Tecnologias Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+As principais tecnologias e linguagens usadas no projeto são:
 
-## Running end-to-end tests
+* **Angular** (framework principal)
+* **TypeScript** (linguagem base do Angular)
+* **HTML5** (estrutura das páginas)
+* **CSS3** (estilização da aplicação)
+* **Node.js** (ambiente de execução)
+* **Angular CLI** (ferramenta de linha de comando)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 📂 Estrutura do Projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+A aplicação segue a estrutura padrão de um projeto Angular:
+
+* `src/app/components` → Componentes da aplicação
+* `src/app/services` → Serviços responsáveis pela lógica e dados
+* `src/app/models` → Modelos/Interfaces
+* `src/assets` → Arquivos estáticos
+
+Essa organização facilita a manutenção e escalabilidade do projeto.
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### Pré-requisitos
+
+Antes de começar, você precisa ter instalado na sua máquina:
+
+* **Node.js** (versão LTS recomendada)
+* **Angular CLI**
+
+Para instalar o Angular CLI:
+
+```bash
+npm install -g @angular/cli
+```
+
+---
+
+### Passo a Passo
+
+1. Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd memoteca
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+ng serve
+```
+
+5. Acesse no navegador:
+
+```
+http://localhost:4200
+```
+
+---
+
+## 📚 Objetivo Educacional
+
+Este projeto tem como objetivo:
+
+* Praticar **Angular** na construção de aplicações SPA
+* Trabalhar com **componentização**
+* Utilizar **services e injeção de dependência**
+* Simular um CRUD simples
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades. Basta criar um *fork* do projeto e abrir um *pull request*.
+
+---
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais.
