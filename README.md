@@ -107,9 +107,3 @@ Este projeto tem como objetivo:
 ## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades. Basta criar um *fork* do projeto e abrir um *pull request*.
-
----
-
-## 📄 Licença
-
-Este projeto é apenas para fins educacionais.
