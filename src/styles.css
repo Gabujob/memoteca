@@ -72,3 +72,14 @@ h2 {
       width: 1140px;
   }
 }
+
+.botao:disabled {
+  background: #7A7F87;
+  border: 2px solid #AAAAAA;
+  color: #ffffff;
+  max-width: 270px;
+  width: 250px;
+  padding: 1rem;
+  cursor: not-allowed;
+  border-radius: 10px;
+}
